@@ -7,7 +7,7 @@ Microsoft SQL Server kullanılarak müşteri, ürün, sipariş, kategori ve sat�
 ## Proje İçeriği
 
 - `SQL BİTİRME PROJESİ.sql` → Tabloların oluşturulması, veri ekleme ve raporlama sorguları
-- `ER-diyagram.pdf` → Varlık-İlişki diyagramı (DrawSQL ile hazırlanmıştır)
+- `ER-diagram.pdf` → Varlık-İlişki diyagramı (DrawSQL ile hazırlanmıştır)
 - `Dokumantasyon.md.txt` → Süreç raporu, karşılaşılan sorunlar ve çözümler
 
 ## Kullanılan Teknolojiler
