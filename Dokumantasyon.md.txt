@@ -1,0 +1,24 @@
+# Bitirme Projesi Dokümantasyonu
+
+## 1. Proje Amacı
+-Projede gerçek bir e-ticaret platformu için veri tabanı tasarlanması amaçlandı
+
+## 2. Tasarım Süreci
+-Tablolar oluşturuldu
+-Tablolar arası ilişkiler kuruldu
+-ER diyagramı DrawSQL ile hazırlandı
+
+## 3. Veri Ekleme ve Güncelleme
+- `INSERT`, `UPDATE` komutları kullanıldı
+- `DELETE`, `TRUNCATE` komutları yorum satırına alındı
+
+## 4. Raporlama Sorguları
+- JOIN, GROUP BY, HAVING, DISTINCT, TOP, AVG gibi SQL ifadeleri kullanılarak veri analizi yapıldı
+- Toplam 9 temel sorgu ve 3 opsiyonel sorgu uygulandı
+
+## 5. Karşılaşılan Sorunlar
+- Aktif veri tabanı seçilmediği için tablo görünmedi → `USE` komutu eklendi
+- Tablolara ait sorgular, tablo zaten var hatası verdi → `OBJECT_ID` fonksiyonu kullanılarak tablo varlığı kontrol edildi
+- Veri kaybı yaşanmaması için `DROP TABLE` komutu yorum satırına alındı
+
+
